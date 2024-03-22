@@ -84,6 +84,13 @@ a:hover {
 .section_padding {
   padding: 90px 0px;
 }
+.btn.show:focus-visible {
+    background: #6580da;
+    box-shadow: none;
+}
+.btn:first-child:active{
+   background: #6580da;
+}
 /*end common css*/
 
 
@@ -143,7 +150,7 @@ a.navbar-brand img {
 .nav-link img {
     margin-right: 5px;
 }
-.d-flex.btn {
+.d-flex.btn button{
     width: 168px;
     border-radius: 64px;
     background: #6580DA;
@@ -250,7 +257,7 @@ a.navbar-brand img {
 .content_hero b{
     font-weight: 700;
 }
-.hero_area .d-flex.btn {
+.hero_area .d-flex.btn button{
     width: 205px;
     margin-top: 40px;
     border-radius: 64px;
