@@ -149,6 +149,9 @@ body {
 .contact_me_section .d-flex.btn {
     left: 6px;
 }
+.metst {
+    margin-left: 404px;
+}
 } 
 @media (max-width: 1400px) {
 .about_content_box {
@@ -314,6 +317,9 @@ section.skills_section.section_padding {
 .bottom_section button {
     margin-top: -4px;
 }
+.metst {
+    margin-left: 316px;
+}
 }
 @media (max-width: 991px) {
 .navbar-toggler-icon {
@@ -392,6 +398,9 @@ a.navbar-brand img {
 }
 }
 @media (max-width: 768px) {
+    .metst {
+    margin-left: 0;
+}
 .image_box {
     text-align: left;
 }
