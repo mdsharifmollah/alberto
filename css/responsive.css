@@ -16,6 +16,9 @@
 .section_padding {
     overflow: hidden;
 }
+.bottom_section button {
+    font-size: 18px;
+}
 body {
     background-image: url(../image/realcolour.jpg);
 
@@ -138,6 +141,13 @@ body {
 .image_box {
     margin-top: 0px;
     margin-left: -130px;
+}
+.image_skills_box h2 {
+    top: 211px;
+    right: 34%;
+}
+.contact_me_section .d-flex.btn {
+    left: 6px;
 }
 } 
 @media (max-width: 1400px) {
@@ -298,6 +308,12 @@ section.skills_section.section_padding {
     font-size: 20px;
     line-height: 30px;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 12px 13px;
+}
+.bottom_section button {
+    margin-top: -4px;
+}
 }
 @media (max-width: 991px) {
 .navbar-toggler-icon {
@@ -371,16 +387,18 @@ a.navbar-brand img {
 .desh_img{
     display: none;
 }
+.nav-link.active {
+    display: inline-block;
+}
 }
 @media (max-width: 768px) {
 .image_box {
     text-align: left;
 }
 .image_box img {
-    width: 376px;
-    margin-top: -73px;
+    width: 100%;
+    margin-top: -128px;
 }
-
 .d-flex.btn {
     width: 150px;
 }
@@ -398,8 +416,18 @@ section.logo_slider .col {
     width: 94px;
 }
 .circle {
-    top: -25%;
-    left: -2%;
+    top: -22%;
+    left: 6%;
+}
+.imgw_icon4 {
+    margin-top: -4px;
+    margin-left: -4px;
+}
+img.icon_bpx {
+    width: 55px;
+}
+img.icon1-book3 {
+    width: 60px;
 }
 .hero_area .d-flex.btn {
     margin-top: 22px;
@@ -521,7 +549,7 @@ section.logo_slider .col {
     left: 6%;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-    width: 153px;
+    width: auto;
 }
 .section_title {
     width: 100%;
@@ -591,7 +619,7 @@ section.logo_slider .col {
     margin-bottom: 0 !important;
 }
 .icon_bpx {
-    width: 45px !important;
+    width: 52px !important;
 }
 .honors_awards_section .section_title h2 {
     font-size: 30px;
@@ -602,6 +630,16 @@ section.logo_slider .col {
 .company_content_box {
     width: 100%;
     margin-bottom: 40px;
+}
+.image_box {
+    margin-top: 65px;
+    margin-left: 0;
+}
+.contact_me_section .d-flex.btn button {
+    padding: 12px 75px;
+}
+.contact_me_section .d-flex.btn button {
+    padding: 12px 49px;
 }
 }
 @media (max-width: 390px) {
@@ -624,5 +662,13 @@ section.logo_slider .col {
     margin-left: 14px;
     position: relative;
     left: -10px;
+}
+.icon_bpx {
+    width: 44px !important;
+    margin-left: -8px;
+}
+img.icon1-book3 {
+    width: 47px;
+    margin-left: -4px;
 }
 }
