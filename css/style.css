@@ -196,10 +196,11 @@
      transition: opacity .83333s cubic-bezier(.53,0,.41,1);
 }
 */
- .black {
-     background: linear-gradient(180deg, #0f1d47 19.27%, rgb(43 45 120 / 5%));
-     z-index: 99999;
-     transition: opacity .83333s cubic-bezier(.53,0,.41,1);
+.black {
+    background: linear-gradient(180deg, #0f1d47 19.27%, rgb(43 45 120 / 5%));
+    z-index: 99999;
+    transition: opacity .83333s cubic-bezier(.53,0,.41,1);
+    height: 198px;
 }
  .image_box {
      margin-top: 110px;
