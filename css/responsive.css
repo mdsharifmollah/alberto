@@ -152,6 +152,9 @@ body {
 .metst {
     margin-left: 404px;
 }
+.network_section .section_title {
+    width: 850px;
+}
 } 
 @media (max-width: 1400px) {
 .about_content_box {
@@ -323,6 +326,9 @@ section.skills_section.section_padding {
 .black {
     height: auto;
 }
+.network_section .section_title {
+    width: 612px;
+}
 }
 @media (max-width: 991px) {
 .navbar-toggler-icon {
@@ -491,6 +497,9 @@ section.skills_section.section_padding {
 }
 .box_row_inner {
     margin-left: 0;
+}
+.network_section .section_title {
+    width: 100%;
 }
 }
 @media (max-width: 767px) {
