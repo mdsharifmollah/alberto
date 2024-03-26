@@ -7,6 +7,12 @@
     color: #3F5CB1;
     line-height: 52px;
 }
+.contact_me_section .d-flex.btn button {
+    padding: 16px 121px;
+}
+.black {
+    height: 155px;
+}
 .container {
     padding: 0 68px;
 }
@@ -154,6 +160,14 @@ body {
 }
 .network_section .section_title {
     width: 850px;
+}
+img.icon_bpx {
+    margin-left: -2px;
+    margin-top: -2px;
+}
+img.icon1-book3 {
+    margin-left: 1px;
+    margin-top: -8px;
 }
 } 
 @media (max-width: 1400px) {
@@ -329,13 +343,21 @@ section.skills_section.section_padding {
 .network_section .section_title {
     width: 612px;
 }
+img.icon1 {
+    margin-left: 3px;
+    margin-top: -6px;
+}
 }
 @media (max-width: 991px) {
 .navbar-toggler-icon {
     background-image: url(../image/menuicon.svg);
 }
-.image_box img{
-    display: block;
+.image_box img {
+    display: none;
+}
+img.icon1-book3 {
+    margin-left: 1px;
+    margin-top: -1px;
 }
 button.navbar-toggler {
     border: none;
@@ -407,6 +429,14 @@ a.navbar-brand img {
 }
 }
 @media (max-width: 768px) {
+    .content_box_scifi a {
+    font-size: 16px;
+    line-height: 26px;
+}
+.link_honors a {
+    font-size: 16px;
+    line-height: 24px;
+}
     .metst {
     margin-left: 0;
 }
@@ -677,10 +707,32 @@ section.logo_slider .col {
 .contact_me_section .d-flex.btn button {
     padding: 12px 49px;
 }
+.box_inner {
+    margin-bottom: 25px;
+}
+.content_box_scifi a {
+    font-size: 15px;
+    line-height: 22px;
+}
+.network_section .col-lg-4 {
+    margin-bottom: 40px;
+}
+body {
+    background-image: url(../image/mobile-bg.jpg);
+}
+.logo_slider {
+    padding-top: 0;
+}
 }
 @media (max-width: 390px) {
-    section.logo_slider .col {
-    max-width: 84px;
+section.logo_slider .col {
+    max-width: 92px;
+    display: inline-block;
+    padding: 13px;
+    width: 100%;
+}
+.logo_slider .row {
+    margin-top: 0;
 }
 .logo_slider .circle img {
     width: 75px;
@@ -689,8 +741,8 @@ section.logo_slider .col {
     width: 51px;
 }
 .circle {
-    top: -28%;
-    left: -1%;
+    top: 1%;
+    left: 7%;
 }
 .imgw_icon7 {
     margin-top: -1px;
@@ -716,5 +768,12 @@ img.icon1-book3 {
 }
 .nav-link.active {
     padding: 11px 20px !important;
+}
+.contact_me_section .d-flex.btn button {
+    padding: 14px 44px;
+    font-size: 18px;
+}
+.contact_me_section .d-flex.btn {
+    left: 0;
 }
 }

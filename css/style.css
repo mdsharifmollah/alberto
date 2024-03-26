@@ -25,10 +25,6 @@
      border-radius: 20px;
      border: 3px solid RoyalBlue;
 }
- @font-face {
-     font-family: Feijoa;
-     src: url(..//font/Feijoa Display.otf);
-}
  button.btn.btn-primary {
      background: transparent;
      border: navajowhite;
@@ -69,7 +65,7 @@
      line-height: 48px;
 }
  h3 {
-     color: #4F5D80;
+     color: #6580DA;
      font-size: 30px;
      font-style: normal;
      font-weight: 400;
@@ -275,9 +271,9 @@
      margin-top: -7px;
      margin-left: -23px;
 }
- .imgw_icon4 {
-     margin-top: -7px;
-     margin-left: -23px;
+.imgw_icon4 {
+    margin-top: -10px;
+    margin-left: -17px;
 }
  .imgw_icon7 {
      margin-top: -6px;
@@ -301,6 +297,18 @@
  .hero_area .d-flex.btn button:hover{
      background: #081027;
      transition: 0.5s;
+}
+img.icon1 {
+    margin-left: 9px;
+    margin-top: 2px;
+}
+img.icon_bpx {
+    margin-left: -17px;
+    margin-top: -5px;
+}
+img.icon1-book3 {
+    margin-left: -16px;
+    margin-top: -12px;
 }
 /*end hero ara*/
 /*contact me section*/
@@ -802,16 +810,16 @@
      font-weight: 700;
      line-height: 36px;
 }
- .bottom_section button {
-     color: #6580DA;
-     transition: 0.5s;
-     color: #EEF0FB;
-     font-family: "Open Sans";
-     font-size: 24px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 36px;
-     margin-top: -6px;
+.bottom_section button {
+    color: #6580DA !important;
+    transition: 0.5s;
+    color: #EEF0FB;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: -2px;
 }
  .bottom_section a:hover{
      text-decoration: underline;
