@@ -312,13 +312,16 @@ section.skills_section.section_padding {
     line-height: 30px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 12px 13px;
+    padding: 12px 8px;
 }
 .bottom_section button {
     margin-top: -4px;
 }
 .metst {
     margin-left: 316px;
+}
+.black {
+    height: auto;
 }
 }
 @media (max-width: 991px) {
@@ -400,6 +403,12 @@ a.navbar-brand img {
 @media (max-width: 768px) {
     .metst {
     margin-left: 0;
+}
+.d-flex.btn button {
+    padding: 16px 30px;
+}
+.hero_area .d-flex.btn button {
+    padding: 16px 30px;
 }
 .image_box {
     text-align: left;
@@ -485,6 +494,9 @@ section.skills_section.section_padding {
 }
 }
 @media (max-width: 767px) {
+    .logo_slider {
+    overflow: hidden;
+}
 .container {
     padding: 0px 20px;
 }
@@ -531,6 +543,13 @@ section.logo_slider .col {
 .content_hero h1 {
     font-size: 20px;
     line-height: 25px;
+    margin-bottom: 10px;
+}
+.hero_area .d-flex.btn button {
+    margin-top: 0;
+}
+.hero_area .d-flex.btn {
+    padding: 0;
 }
 .content_hero h1 span {
     line-height: 25px;
@@ -545,7 +564,6 @@ section.logo_slider .col {
 }
 .hero_area .d-flex.btn {
     width: 181px;
-    padding: 12.333px 21px;
 }
 .logo_slider .circle img {
     width: 92px;
@@ -652,6 +670,9 @@ section.logo_slider .col {
 }
 }
 @media (max-width: 390px) {
+    section.logo_slider .col {
+    max-width: 84px;
+}
 .logo_slider .circle img {
     width: 75px;
 }
@@ -660,24 +681,31 @@ section.logo_slider .col {
 }
 .circle {
     top: -28%;
-    left: 7%;
+    left: -1%;
 }
 .imgw_icon7 {
-    margin-top: 1px;
-    margin-left: -2px;
+    margin-top: -1px;
+    margin-left: -4px;
 }
 .imgw_icon {
     margin-top: -1px;
-    margin-left: 14px;
+    margin-left: -2px;
     position: relative;
-    left: -10px;
+    left: 1px;
 }
 .icon_bpx {
     width: 44px !important;
-    margin-left: -8px;
+    margin-left: -2px;
 }
 img.icon1-book3 {
     width: 47px;
     margin-left: -4px;
+}
+.imgw_icon6 {
+    margin-top: 0px;
+    margin-left: -18px;
+}
+.nav-link.active {
+    padding: 11px 20px !important;
 }
 }

@@ -640,9 +640,7 @@
      text-align: center;
      margin-bottom: 25px;
 }
- .content_box_scifi {
-     padding: 28px 0px;
-}
+
  .content_box_scifi img {
      margin-left: 10px;
 }
@@ -651,7 +649,6 @@
      font-size: 24px;
      font-style: normal;
      font-weight: 400;
-     padding: 20px 0px;
      line-height: 40px;
      transition: 0.5s;
      font-family: "Open Sans";
@@ -726,6 +723,9 @@
 /*network section*/
  .network_section{
      width: 100%;
+}
+.network_section .section_title {
+    width: 1000px;
 }
  .box_inner_net{
      text-align: center;
