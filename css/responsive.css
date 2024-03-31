@@ -718,10 +718,17 @@ section.logo_slider .col {
     margin-bottom: 40px;
 }
 body {
-    background-image: url(../image/mobile-bg.jpg);
+    background-image: url(../image/bg-mobile.svg);
 }
 .logo_slider {
     padding-top: 0;
+}
+.network_section .section_title p {
+    width: 100%;
+    margin: 0 auto;
+}
+.contact_me_section .d-flex.btn {
+    left: 0;
 }
 }
 @media (max-width: 390px) {

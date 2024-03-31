@@ -350,6 +350,7 @@ img.icon1-book3 {
  .box_footer ul {
      display: flex;
      margin-bottom: 32px;
+     padding: 0;
 }
  .box_footer ul li {
      color: #EEF0FB;
@@ -599,6 +600,20 @@ img.icon1-book3 {
  .institution_image {
      position: relative;
      left: 125px;
+     animation: float-left-right 6s ease-in-out infinite;
+}
+@keyframes float-left-right {
+    0% {
+        transform: translatex(0)
+    }
+
+    50% {
+        transform: translatex(-40px)
+    }
+
+    100% {
+        transform: translatex(0)
+    }
 }
 /*end skilss section*/
 /*scientific section*/
@@ -735,6 +750,10 @@ img.icon1-book3 {
 .network_section .section_title {
     width: 1000px;
 }
+.network_section .section_title p {
+    width: 660px;
+    margin: 0 auto;
+}
  .box_inner_net{
      text-align: center;
      position: relative;
@@ -828,13 +847,13 @@ img.icon1-book3 {
  .mobile_ver{
      display: none;
 }
- .contact_me_section .d-flex.btn {
-     text-align: center;
-     width: 100%;
-     display: inline-block !important;
-     top: 28px;
-     position: relative;
-     left: 68px;
+.contact_me_section .d-flex.btn {
+    text-align: center;
+    width: 100%;
+    display: inline-block !important;
+    top: 28px;
+    position: relative;
+    left: 38px;
 }
  .contact_me_section .d-flex.btn button {
      width: auto;
@@ -854,6 +873,11 @@ img.icon1-book3 {
 }
  .metst {
      margin-left: 455px;
+}
+.head_title p img{
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 2px;
 }
 /*end css*/
  
