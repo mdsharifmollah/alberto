@@ -212,9 +212,15 @@
      position: relative;
      overflow: hidden;
 }
- .content_hero{
-     width: 100%;
-     padding: 120px 0px;
+ .content_hero {
+    width: 100%;
+    padding: 95px 0px;
+}
+span.vivoarchitect_cs {
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.1;
+    line-height: 0;
 }
  .content_hero h1 {
      color: #EEF0FB;
@@ -517,8 +523,9 @@ img.icon1-book3 {
      margin: 0;
      padding: 300px 0px;
 }
- .about_image_box img{
-     width: 100%;
+ .about_image_box img {
+    width: 100%;
+    padding: 30px;
 }
  .about_content_box {
      padding: 30px 60px;
