@@ -217,7 +217,7 @@
     padding: 95px 0px;
 }
 span.vivoarchitect_cs {
-    color: #fff;
+    color: #fff0 !important;
     font-size: 25px;
     opacity: 0.1;
     line-height: 0;
